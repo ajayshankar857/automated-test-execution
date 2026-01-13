@@ -1,0 +1,14 @@
+### Add Test Case
+POST http://localhost:8080/testcases
+Content-Type: application/json
+
+{
+  "name": "Login Test",
+  "type": "UI",
+  "target": "http://example.com/login"
+}
+
+###
+
+### Get All Test Cases
+GET http://localhost:8080/testcases
